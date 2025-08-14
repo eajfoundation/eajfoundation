@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="EAJ Foundation - Each One Help One. Supporting less fortunate children with food, shelter, clothing, and education.">
+    <title>EAJ Foundation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        header {
+            background-color: #2e86c1;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        nav {
+            background-color: #145a86;
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 2rem;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .mission {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-bottom: 2rem;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #2e86c1;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>EAJ FOUNDATION</h1>
+        <p><em>Each One Help One</em></p>
+    </header>
+
+    <nav>
+        <a href="#mission">Mission</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="mission" class="mission">
+        <h2>Our Mission</h2>
+        <p>The EAJ Foundation is committed to helping less fortunate children in society by providing access to food, shelter, clothing, and most importantly, education. We believe in the power of compassion and community, guided by our motto: <strong>Each One Help One</strong>.</p>
+        <p>Our founder is a living testimony of the transformative power of kindness — having once been supported by another foundation, he now strives to give back and uplift others in need.</p>
+    </section>
+
+    <section id="gallery">
+        <h2>Our Work in Action</h2>
+        <div class="gallery">
+            <img src="https://images.unsplash.com/photo-1509099836639-18ba1795216d" alt="Children receiving food">
+            <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf" alt="Kids studying">
+            <img src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81" alt="Providing clothing">
+            <img src="https://images.unsplash.com/photo-1603398938378-e54c0473d431" alt="Shelter support">
+        </div>
+    </section>
+
+    <section id="contact" class="mission">
+        <h2>Contact Us</h2>
+        <p>We would love to hear from you. You can reach us via:</p>
+        <ul>
+            <li>Phone: <a href="tel:+254718314009">+254 718 314 009</a></li>
+            <li>Email: <a href="mailto:eajfoundation@gmail.com">eajfoundation@gmail.com</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 EAJ Foundation. All rights reserved.</p>
+    </footer>
+</body>
+</html>
